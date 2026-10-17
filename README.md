@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:381E72,50:6750A4,100:D0BCFF&height=240&section=header&text=Bases&fontSize=64&fontColor=EADDFF&fontAlignY=36&desc=Reaching%20the%20base%20before%20the%20stack%20overflows.&descSize=20&descColor=EADDFF&descAlignY=58&animation=fadeIn" alt="Bases banner" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=B69DF8&center=true&vCenter=true&width=700&lines=Luau+scripter+%26+UI+developer;Building+nox%2C+a+Material+Design+3+UI+library;Making+Roblox+interfaces+feel+native+and+smooth;Reaching+the+base+before+the+stack+overflows)](https://github.com/fiangg20)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=B69DF8&center=true&vCenter=true&width=720&lines=Luau+scripter+%26+developer+tools+builder;Building+Superbase%3A+let+AI+debug+your+live+Roblox+game;Connecting+AI+assistants+to+Roblox+through+MCP;Reaching+the+base+before+the+stack+overflows)](https://github.com/fiangg20/superbase)
 
 <br/>
 
@@ -21,8 +21,8 @@
 local Bases = {
 	location = "Indonesia 🇮🇩",
 	language = "Luau",
-	building = "nox, a Material Design 3 UI library for Roblox",
-	focus    = { "UI/UX", "theming", "animations", "component systems" },
+	building = "Superbase, an MCP server that lets AI debug live Roblox games",
+	focus    = { "Luau", "MCP servers", "developer tools", "debugging" },
 	motto    = "Reaching the base before the stack overflows.",
 }
 
@@ -37,7 +37,9 @@ return Bases
 
 ![Luau](https://img.shields.io/badge/Luau-00A2FF?style=for-the-badge&logo=lua&logoColor=white)
 ![Roblox](https://img.shields.io/badge/Roblox-000000?style=for-the-badge&logo=roblox&logoColor=white)
-![Material Design](https://img.shields.io/badge/Material%20Design%203-757575?style=for-the-badge&logo=materialdesign&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![MCP](https://img.shields.io/badge/MCP-6750A4?style=for-the-badge)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
@@ -49,21 +51,43 @@ return Bases
 
 <div align="center">
 
-<a href="https://github.com/fiangg20/nox">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fiangg20&repo=nox&bg_color=1C1B1F&title_color=D0BCFF&text_color=E6E1E5&icon_color=D0BCFF&border_color=49454F" alt="nox" />
+<a href="https://github.com/fiangg20/superbase">
+  <img src="https://raw.githubusercontent.com/fiangg20/superbase/main/assets/icon.png" width="110" alt="Superbase icon" />
+</a>
+
+### [Superbase](https://github.com/fiangg20/superbase)
+
+**Let an AI assistant debug your live Roblox game.**
+
+<a href="https://github.com/fiangg20/superbase">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fiangg20&repo=superbase&bg_color=1C1B1F&title_color=D0BCFF&text_color=E6E1E5&icon_color=D0BCFF&border_color=49454F" alt="superbase" />
 </a>
 
 </div>
 
-**nox** is a Material Design 3 inspired UI library for Roblox.
+Superbase is a local [Model Context Protocol](https://modelcontextprotocol.io) server that connects AI assistants to a running Roblox session. The AI can read the console and script errors, inspect the instance tree, read scripts and run Lua, and it always knows whether Roblox is actually connected.
 
-- 🎨 **Theming**: consistent, swappable themes across every component
-- 🎬 **Animations**: smooth, polished motion out of the box
-- 🧩 **Components**: an extensive component system to build full interfaces
+- ⚡ **Zero configuration**: no token, no account, no copy and paste
+- 🔌 **Connection aware**: every tool result starts with a live status line
+- 🧰 **11 tools**: logs, errors, inspection, scripts, properties and code execution
+- 🤝 **Works with any MCP client**: Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, Codex CLI and more
+- 🔒 **Local only**: everything listens on `127.0.0.1`
 
-<!-- Add a screenshot or GIF of nox here, e.g.
-<div align="center"><img src="https://github.com/fiangg20/nox/assets/..." width="600" /></div>
--->
+```mermaid
+flowchart LR
+    AI["AI client<br/>(Claude, Cursor, ...)"] -- "stdio (MCP)" --> MCP["MCP server"]
+    MCP -- "HTTP, 127.0.0.1" --> Bridge["Bridge"]
+    Client["In-game client<br/>(executor)"] -- "WebSocket, 127.0.0.1" --> Bridge
+```
+
+```bash
+git clone https://github.com/fiangg20/superbase.git
+cd superbase
+npm install
+npm start
+```
+
+> Built for debugging your own games. Only connect AI clients you trust.
 
 ---
 
@@ -91,7 +115,7 @@ return Bases
 
 <br/>
 
-*⭐ If nox helps you, a star on the repo goes a long way!*
+*⭐ If Superbase saves you a debugging session, a star on the repo goes a long way!*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:381E72,50:6750A4,100:D0BCFF&height=120&section=footer" alt="footer" />
 
