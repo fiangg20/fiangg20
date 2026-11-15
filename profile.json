@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "login": "fiangg20",
+  "seed": "#A4C0D5",
+  "seedFromAvatar": true,
+  "scheme": "tonalSpot",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "socials",
+    "about",
+    "stack",
+    "projects",
+    "stats",
+    "streak",
+    "wave",
+    "buttons"
+  ],
+  "hidden": [],
+  "hero": {
+    "greeting": "Hellooo pepol, i'm",
+    "name": "Base Architect",
+    "subtitle": "Founder of Bases, Roblox developer, Reverse engineer, UI/UI designer",
+    "typing": true,
+    "avatarShape": "cookie",
+    "chips": [
+      {
+        "icon": "brand:luau",
+        "label": "Luau"
+      },
+      {
+        "icon": "brand:javascript",
+        "label": "JavaScript"
+      },
+      {
+        "icon": "brand:python",
+        "label": "Python"
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "items": [
+      {
+        "icon": "person",
+        "label": "UI/UX designer"
+      },
+      {
+        "icon": "code",
+        "label": "Roblox developer"
+      },
+      {
+        "icon": "palette",
+        "label": "I like Material Design"
+      }
+    ]
+  },
+  "stack": {
+    "title": "Tech stack",
+    "groups": [
+      {
+        "title": "Main",
+        "items": [
+          {
+            "icon": "brand:luau",
+            "label": "Luau"
+          },
+          {
+            "icon": "brand:javascript",
+            "label": "JavaScript"
+          },
+          {
+            "icon": "brand:python",
+            "label": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          {
+            "icon": "brand:git",
+            "label": "Git"
+          },
+          {
+            "icon": "brand:githubactions",
+            "label": "GitHub Actions"
+          },
+          {
+            "icon": "brand:javascript",
+            "label": "Superbase"
+          },
+          {
+            "icon": "brand:figma",
+            "label": "Figma"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "manual",
+    "repos": [
+      "superbase",
+      "wavelength",
+      "expressivelauncher",
+      "FyanHub"
+    ],
+    "overrides": {},
+    "empty": "No description yet.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "GitHub activity",
+    "stars": "Stars earned",
+    "contributions": "Contributions this year",
+    "repos": "Public repos",
+    "followers": "Followers",
+    "calendar": "Last 21 days",
+    "weekdays": "SMTWTFS",
+    "languages": "Languages across my repositories",
+    "showLanguages": true
+  },
+  "streak": {
+    "title": "Streak",
+    "current": "Current streak",
+    "longest": "Longest this year",
+    "days": "days"
+  },
+  "socials": {
+    "items": [
+      {
+        "icon": "brand:telegram",
+        "url": "https://t.me/"
+      },
+      {
+        "icon": "brand:discord",
+        "url": "https://discord.com/"
+      },
+      {
+        "icon": "brand:x",
+        "url": "https://x.com/"
+      }
+    ],
+    "variant": "chip",
+    "fill": "tonal",
+    "card": true
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "attach_money",
+        "label": "Support Me",
+        "url": "https://saweria.co/bases",
+        "style": "tonal"
+      },
+      {
+        "icon": "music_note",
+        "label": "TikTok",
+        "url": "https://tiktok.com/@bases.devs",
+        "style": "tonal"
+      }
+    ],
+    "card": false
+  }
+}
