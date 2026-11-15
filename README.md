@@ -18,6 +18,4 @@
 
 <a href="https://saweria.co/bases"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-1-dark.svg"><img src="assets/button-1-light.svg" width="auto" alt="Support Me"></picture></a>&nbsp;&nbsp;<a href="https://tiktok.com/@bases.devs"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-2-dark.svg"><img src="assets/button-2-light.svg" width="auto" alt="TikTok"></picture></a>
 
-<a href="https://metawka.github.io/expressive-profile/?from=fiangg20"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/credit-dark.svg"><img src="assets/credit-light.svg" width="auto" alt="Made with Expressive Profile"></picture></a>
-
 </div>
