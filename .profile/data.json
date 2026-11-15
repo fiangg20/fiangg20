@@ -1,0 +1,306 @@
+{
+ "key": "cd8df1e7",
+ "stars": 5,
+ "contributions": 302,
+ "repos": 16,
+ "followers": 5,
+ "languages": [
+  [
+   "Kotlin",
+   797378
+  ],
+  [
+   "Lua",
+   684021
+  ],
+  [
+   "JavaScript",
+   554954
+  ],
+  [
+   "Luau",
+   328854
+  ],
+  [
+   "HTML",
+   85853
+  ],
+  [
+   "CSS",
+   20573
+  ],
+  [
+   "Python",
+   731
+  ]
+ ],
+ "days": [
+  [
+   {
+    "c": 2,
+    "day": 1,
+    "today": false
+   },
+   {
+    "c": 6,
+    "day": 2,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 3,
+    "today": false
+   },
+   {
+    "c": 12,
+    "day": 4,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 5,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 6,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 7,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 0,
+    "day": 8,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 9,
+    "today": false
+   },
+   {
+    "c": 2,
+    "day": 10,
+    "today": false
+   },
+   {
+    "c": 1,
+    "day": 11,
+    "today": false
+   },
+   {
+    "c": 14,
+    "day": 12,
+    "today": false
+   },
+   {
+    "c": 2,
+    "day": 13,
+    "today": false
+   },
+   {
+    "c": 7,
+    "day": 14,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 21,
+    "day": 15,
+    "today": true
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ ],
+ "streak": {
+  "current": 6,
+  "longest": 12
+ },
+ "pins": [
+  {
+   "name": "superbase",
+   "url": "https://github.com/fiangg20/superbase",
+   "text": "A local MCP server that connects AI assistants to a live Roblox executor session.",
+   "fork": false,
+   "stars": 4,
+   "language": "JavaScript",
+   "topics": [
+    "ai",
+    "debugging",
+    "executor-plugin",
+    "luau",
+    "mcp",
+    "roblox"
+   ]
+  }
+ ],
+ "all": [
+  {
+   "name": "superbase",
+   "url": "https://github.com/fiangg20/superbase",
+   "text": "A local MCP server that connects AI assistants to a live Roblox executor session.",
+   "fork": false,
+   "stars": 4,
+   "language": "JavaScript",
+   "topics": [
+    "ai",
+    "debugging",
+    "executor-plugin",
+    "luau",
+    "mcp",
+    "roblox"
+   ]
+  },
+  {
+   "name": "nox",
+   "url": "https://github.com/fiangg20/nox",
+   "text": "A comprehensive, Material Design 3 inspired UI library for Roblox with theming, animations, and an extensive component system.",
+   "fork": false,
+   "stars": 1,
+   "language": "Luau",
+   "topics": []
+  },
+  {
+   "name": "wavelength",
+   "url": "https://github.com/fiangg20/wavelength",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": "Kotlin",
+   "topics": []
+  },
+  {
+   "name": "expressivelauncher",
+   "url": "https://github.com/fiangg20/expressivelauncher",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": "Kotlin",
+   "topics": []
+  },
+  {
+   "name": "noe",
+   "url": "https://github.com/fiangg20/noe",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": "Kotlin",
+   "topics": []
+  },
+  {
+   "name": "nothing",
+   "url": "https://github.com/fiangg20/nothing",
+   "text": "Nothing is exactly what it sounds like.",
+   "fork": false,
+   "stars": 0,
+   "language": null,
+   "topics": [
+    "nothing"
+   ]
+  },
+  {
+   "name": "Builder-Icons",
+   "url": "https://github.com/fiangg20/Builder-Icons",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": null,
+   "topics": []
+  },
+  {
+   "name": "Roblox-New-UI-Capabilities",
+   "url": "https://github.com/fiangg20/Roblox-New-UI-Capabilities",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": null,
+   "topics": []
+  },
+  {
+   "name": "glows",
+   "url": "https://github.com/fiangg20/glows",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "BineLib-Library",
+   "url": "https://github.com/fiangg20/BineLib-Library",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": null,
+   "topics": []
+  },
+  {
+   "name": "FyanLib",
+   "url": "https://github.com/fiangg20/FyanLib",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": null,
+   "topics": []
+  },
+  {
+   "name": "fyanhub.github.io",
+   "url": "https://github.com/fiangg20/fyanhub.github.io",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": "Luau",
+   "topics": []
+  },
+  {
+   "name": "MinimalUI-ID-",
+   "url": "https://github.com/fiangg20/MinimalUI-ID-",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": "Lua",
+   "topics": []
+  },
+  {
+   "name": "FyanHub",
+   "url": "https://github.com/fiangg20/FyanHub",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": "Lua",
+   "topics": []
+  },
+  {
+   "name": "Fian_gg-Repo",
+   "url": "https://github.com/fiangg20/Fian_gg-Repo",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": "Lua",
+   "topics": []
+  },
+  {
+   "name": "fiangg20",
+   "url": "https://github.com/fiangg20/fiangg20",
+   "text": "Config files for my GitHub profile.",
+   "fork": false,
+   "stars": 0,
+   "language": null,
+   "topics": [
+    "config",
+    "github-config"
+   ]
+  }
+ ]
+}
