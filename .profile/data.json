@@ -1,8 +1,8 @@
 {
- "key": "8b793c73",
+ "key": "f89d84f1",
  "stars": 5,
- "contributions": 343,
- "repos": 20,
+ "contributions": 350,
+ "repos": 22,
  "followers": 5,
  "languages": [
   [
@@ -22,16 +22,16 @@
    328854
   ],
   [
+   "C#",
+   132758
+  ],
+  [
    "HTML",
    85853
   ],
   [
-   "CSS",
-   20573
-  ],
-  [
-   "C#",
-   4118
+   "Java",
+   36543
   ]
  ],
  "days": [
@@ -121,7 +121,7 @@
     "today": false
    },
    {
-    "c": 0,
+    "c": 7,
     "day": 24,
     "today": true
    },
@@ -132,7 +132,7 @@
   ]
  ],
  "streak": {
-  "current": 2,
+  "current": 3,
   "longest": 12
  },
  "pins": [
@@ -177,6 +177,24 @@
    "fork": false,
    "stars": 1,
    "language": "Luau",
+   "topics": []
+  },
+  {
+   "name": "mediasession",
+   "url": "https://github.com/fiangg20/mediasession",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": "Java",
+   "topics": []
+  },
+  {
+   "name": "droiddeck",
+   "url": "https://github.com/fiangg20/droiddeck",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": "C#",
    "topics": []
   },
   {
